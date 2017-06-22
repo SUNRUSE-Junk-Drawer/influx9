@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunruse.Influx", "Sunruse.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunruse.Influx.Repl", "Sunruse.Influx.Repl\Sunruse.Influx.Repl.csproj", "{8C6ED272-0206-4F5F-8FA3-C8ACDAD1E990}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunruse.Influx.Repl.Unit", "Sunruse.Influx.Repl.Unit\Sunruse.Influx.Repl.Unit.csproj", "{D0F298B7-40FF-44D0-B737-997972E27CAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8C6ED272-0206-4F5F-8FA3-C8ACDAD1E990}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C6ED272-0206-4F5F-8FA3-C8ACDAD1E990}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C6ED272-0206-4F5F-8FA3-C8ACDAD1E990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F298B7-40FF-44D0-B737-997972E27CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F298B7-40FF-44D0-B737-997972E27CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F298B7-40FF-44D0-B737-997972E27CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F298B7-40FF-44D0-B737-997972E27CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
