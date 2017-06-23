@@ -80,6 +80,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoFacConfigurerTests.cs" />
     <Compile Include="ConfiguredTestKit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhiteSpaceSplitterTests.cs" />
