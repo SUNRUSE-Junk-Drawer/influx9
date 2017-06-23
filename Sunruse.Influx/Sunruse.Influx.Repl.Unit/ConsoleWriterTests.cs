@@ -1,10 +1,10 @@
-﻿using Akka.TestKit.Xunit2;
+﻿using Sunruse.Influx.Unit;
 using System;
 using Xunit;
 
 namespace Sunruse.Influx.Repl.Unit
 {
-    public sealed class ConsoleWriterTests : TestKit
+    public sealed class ConsoleWriterTests : ConfiguredTestKit
     {
         [Fact]
         public void ImportsConsoleWriteLine()
