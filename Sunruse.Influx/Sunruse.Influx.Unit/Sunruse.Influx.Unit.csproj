@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="ConfiguredTestKit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WhiteSpaceSplitterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
