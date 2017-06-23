@@ -79,6 +79,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoFacConfigurerTests.cs" />
     <Compile Include="ConsoleReaderTests.cs" />
     <Compile Include="ConsoleWriterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
