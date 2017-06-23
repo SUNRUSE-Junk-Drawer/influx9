@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Sunruse.Influx.Unit
 {
-    public sealed class ConfiguredTestKit : TestKit
+    public abstract class ConfiguredTestKit : TestKit
     {
         public ConfiguredTestKit() : base(@"
             akka {
