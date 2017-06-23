@@ -83,6 +83,10 @@
       <Project>{8c6ed272-0206-4f5f-8fa3-c8acdad1e990}</Project>
       <Name>Sunruse.Influx.Repl</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Sunruse.Influx.Unit\Sunruse.Influx.Unit.csproj">
+      <Project>{1D31A680-72E2-4446-9370-24DA07CE165B}</Project>
+      <Name>Sunruse.Influx.Unit</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
