@@ -15,6 +15,7 @@ namespace Sunruse.Influx
         public static void Configure(ContainerBuilder containerBuilder)
         {
             containerBuilder.RegisterType<WhiteSpaceSplitter>();
+            containerBuilder.RegisterType<ActorLookup>().As<IActorLookup>();
         }
     }
 }
