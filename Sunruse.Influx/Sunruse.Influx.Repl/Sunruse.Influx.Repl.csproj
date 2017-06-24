@@ -72,5 +72,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sunruse.Influx\Sunruse.Influx.csproj">
+      <Project>{8bdfbed7-4e5a-410a-9692-e288d3ff7c91}</Project>
+      <Name>Sunruse.Influx</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
